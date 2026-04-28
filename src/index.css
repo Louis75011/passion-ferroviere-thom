@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Verdana", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  
+  --color-navy: #001F3F;
+  --color-burgundy: #800020;
+  --color-slate-gray: #555555;
+  --color-page-bg: #F4F4F2;
+}
+
+@layer base {
+  body {
+    @apply text-[#1A1A1A] bg-page-bg antialiased;
+  }
+}
+
+.special-title {
+  @apply font-display tracking-tight;
+}
+
+.line-accent {
+  height: 1px;
+  background: linear-gradient(to right, var(--color-burgundy), transparent);
+}
+
+.markdown-body h1 { @apply font-display text-4xl mb-6 text-navy; }
+.markdown-body h2 { @apply font-display text-2xl mb-4 text-navy mt-8; }
+.markdown-body p { @apply mb-4 leading-relaxed; }
+.markdown-body ul { @apply list-disc ml-6 mb-4; }
+.markdown-body li { @apply mb-2; }
