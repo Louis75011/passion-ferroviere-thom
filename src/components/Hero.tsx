@@ -56,17 +56,33 @@ export default function Hero() {
           <div className="line-accent w-full mb-10"></div>
           
           <div className="grid md:grid-cols-2 gap-12 mb-12">
-            <div className="space-y-4">
-              <p className="text-[13px] leading-relaxed">
-                <span className="font-bold text-navy uppercase tracking-tighter text-[10px] block mb-2">Positionnement Stratégique</span>
-                Le ferroviaire constitue un domaine à forte densité technique et culturelle. Un site bien positionné capte les décideurs, les professionnels et les amateurs éclairés du secteur rail.
-              </p>
+            <div className="space-y-6">
+              <div>
+                <span className="font-bold text-navy uppercase tracking-tighter text-[10px] lg:text-[11px] block mb-2">01 / Positionnement Stratégique</span>
+                <p className="text-[13px] md:text-[12px] lg:text-lg leading-relaxed">
+                  Le ferroviaire constitue un domaine à forte densité technique et culturelle. Un site bien positionné capte les décideurs, les professionnels et les amateurs éclairés. L'enjeu est de transformer cette complexité en levier de croissance numérique.
+                </p>
+              </div>
+              <div>
+                <span className="font-bold text-navy uppercase tracking-tighter text-[10px] lg:text-[11px] block mb-2">02 / Technologies Modernes</span>
+                <p className="text-[13px] md:text-[12px] lg:text-lg leading-relaxed text-slate-gray">
+                  De l'optimisation aérodynamique à la signalisation numérique ERTMS, l'innovation est le cœur battant du rail. L'hybridation (Alstom Coradia iLint) et la maintenance prédictive via l'IoT redéfinissent l'exploitation moderne.
+                </p>
+              </div>
             </div>
-            <div className="space-y-4">
-              <p className="text-[13px] leading-relaxed text-slate-gray">
-                <span className="font-bold text-burgundy uppercase tracking-tighter text-[10px] block mb-2">Ligne Optimale</span>
-                Autorité technique + pédagogie + angle stratégique (mobilité, énergie, territoire). Monétisation indirecte et forte crédibilité pour vos futurs projets numériques.
-              </p>
+            <div className="space-y-6">
+              <div>
+                <span className="font-bold text-burgundy uppercase tracking-tighter text-[10px] lg:text-[11px] block mb-2">03 / Prospective & Climat</span>
+                <p className="text-[13px] md:text-[12px] lg:text-lg leading-relaxed text-slate-gray">
+                  La réhabilitation du train face aux enjeux climatiques place l'axe ferroviaire au centre de la transition énergétique. Substitution au court-courrier aérien et retour en grâce des trains de nuit sont les piliers de demain.
+                </p>
+              </div>
+              <div>
+                <span className="font-bold text-burgundy uppercase tracking-tighter text-[10px] lg:text-[11px] block mb-2">Note de l'Expert</span>
+                <p className="text-[13px] md:text-[12px] lg:text-lg leading-relaxed italic font-serif text-navy">
+                  "L'autorité technique ne vaut que si elle est accompagnée d'une pédagogie rigoureuse. Ma mission est de rendre intelligible l'avenir du mouvement."
+                </p>
+              </div>
             </div>
           </div>
 
